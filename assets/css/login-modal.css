@@ -1,0 +1,87 @@
+*{margin: 0; padding: 0;}
+.login-container {
+	width: 100%;
+	max-width: 800px;
+	margin: 0 auto;
+}
+
+.login-container .login-modal {
+	width: 100%;
+	max-width: 800px;
+	height: 400px;
+	background-color: #fff;
+	border: 1px solid #000;
+}
+
+.login-container .login-modal .login-header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border-bottom: 1px solid #eee;
+	padding: 20px;
+	color: #000;
+	font-weight: 700;
+}
+
+.login-container .login-modal .login-box p {
+	font-size: 25px;
+	font-weight: 700;
+}
+
+.login-container .login-modal .login-header .cross-btn{
+  cursor: pointer;
+}
+
+.login-container .login-modal .login-box {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: calc(400px - 160px);
+	text-align: center;
+}
+
+.login-container .login-box .login-btn {
+	/* width: 100%; */
+	padding: 20px;
+	font-size: 20px;
+	color: #fff;
+	background-color: #008CBA;
+	border: none;
+	cursor: pointer;
+	border-radius: 5px;
+	margin: 10px;
+	border: 2px solid #fff;
+}
+
+.login-container .login-box .login-btn:hover {
+	background-color: #fff;
+	color: #008CBA;
+	border: 2px solid rgb(16, 114, 146);
+}
+
+.login-container .login-box .pu-btn {
+	display: flex;
+}
+
+.login-container .login-modal .close {
+	text-align: right;
+}
+
+.login-container .login-modal .close-btn {
+	padding: 20px;
+	font-size: 20px;
+	color: #fff;
+	background-color: #666;
+	border: none;
+	cursor: pointer;
+	border-radius: 5px;
+	margin: 10px;
+	border: 2px solid #fff;
+}
+
+.login-container .login-modal .close-btn:hover {
+	background-color: #fff;
+	color: #666;
+	border: 2px solid #666;
+}
+
